@@ -1,0 +1,31 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+#diary-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#diary-form {
+    margin-bottom: 20px;
+}
+#calendar {
+    margin-bottom: 20px;
+}
+#calculator {
+    display: flex;
+    flex-direction: column;
+}
+#calc-display {
+    margin-bottom: 10px;
+}
+#calc-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+button, input[type="text"], textarea {
+    padding: 10px;
+    font-size: 16px;
+}
